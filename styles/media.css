@@ -1,0 +1,37 @@
+@media(max-width: 991px){
+	#top .offer{
+font-size: 12px;
+text-align: center;
+
+	}
+		#top ul .menu{
+		text-align:center;
+
+	}
+	#top .offer{
+		margin-bottom: 10px;
+
+	}
+	.breadcrumb{
+		padding: 8px 0;
+		text-align: center;
+	}
+}
+
+
+@media(max-width: 768px){
+	.single{
+		width:60px;
+		margin:0 auto;
+	}
+	.center-responsive{
+		width:70%;
+		margin: auto;
+	}
+}
+@media(max-width: 550px){
+	.center-responsive{
+		width:95%;
+		margin:0 auto;
+	}
+}
