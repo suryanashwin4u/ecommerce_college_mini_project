@@ -2,7 +2,7 @@
 	<div class="box-header">
 		<center>
 		<h2>Login</h2>
-		<p class="lead">plz login if already registered else go to register page....</p>
+		<p class="lead">plz login if already a member else click on registration button</p>
 		</center>
 	</div>
 	<form action="checkout.php" method="post">

@@ -1,9 +1,9 @@
 #top{
 	background-color:black;
-	padding:5px;
+	padding:10px;
 }
 .offer{
-	color:white;
+	color:yellow;
 
 }
 #top .offer .btn{
@@ -36,13 +36,8 @@
 
 /*header2*/
 
-.navbar{
-	background-color: black;
-}
 
-.navbar-collapse .right {
-	float: right;
-}
+
 
 .navbar-brand {
 	float: left;
@@ -53,50 +48,43 @@
 
 }
 
-.navbar-brand:hover,.navbar-brand:focus{
-	text-decoration: none;
-}
+
 .navbar ul.nav >li > a{
 	text-transform: uppercase;
 	font-weight: bold;
-	font-size: 14px;
+	font-size: 17px;
+	padding:5px;
 
 }
 
-.padding-nav{
-	margin:20px;
-	padding:10px;
 
-}
 .navbar ul.nav > li > a:hover{
-	background:#e7e7e7;
+	background:blue;
 }
 
-.btn-primary{
-	color:rgb(255,255,255);
-	background-color: rgb(79,191,168);
-	border-color: rgb(65,179,156);
+.change-align{
+	float: right;
+	margin-left: 100px;
 }
 
-#search .navbar-form{
-	float:right;
+
+.navbar-form{
+	
+
+	width:70%;
 
 }
-#search{
-	clear:both;
-	border-top: solid 1px #9adacd;
-	text-align:right;
-}
+
 
 #search .navbar-form .input-group{
 	display: table;
 
 }
 #search .navbar-form .input-group .form-control{
-	width:100%;
+	width:1%;
 }
 #slider{
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
 .box{
 
@@ -155,10 +143,7 @@ text-align: center;
 
 }
 
-#content{
-	padding-left: 25px;
 
-}
 
 .single{
 	width: 290px;

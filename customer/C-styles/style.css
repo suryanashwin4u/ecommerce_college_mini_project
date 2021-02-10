@@ -1,17 +1,9 @@
-body{
-	font-family: "verdana";
-	font-size: 15px;
-	line-height: 1.6;
-	background-color:white;
-}
-
-/*header1*/
 #top{
 	background-color:black;
-	padding:5px;
+	padding:10px;
 }
-#top .offer{
-	color:black;
+.offer{
+	color:yellow;
 
 }
 #top .offer .btn{
@@ -19,7 +11,7 @@ body{
 }
 
 #top a{
-	color:black;
+	color:white;
 
 }
 
@@ -31,31 +23,21 @@ body{
 	margin-top: -30px;
 }
 
-#top ul.menu{
-	text-align: right;
-}
-
 #top ul.menu > li{
 
 	display:inline-block;
-
 }
 
 #top ul.menu > li + li:before{
 	content: "|\00a0";
 	padding:0 5px;
-	color:black;
+	color:white;
 }
 
 /*header2*/
 
-.navbar{
-	background-color: white;
-}
 
-.navbar-collapse .right {
-	float: right;
-}
+
 
 .navbar-brand {
 	float: left;
@@ -66,49 +48,43 @@ body{
 
 }
 
-.navbar-brand:hover,.navbar-brand:focus{
-	text-decoration: none;
-}
+
 .navbar ul.nav >li > a{
 	text-transform: uppercase;
 	font-weight: bold;
-	font-size: 14px;
+	font-size: 17px;
+	padding:5px;
 
 }
 
-.padding-nav{
-	padding-top:10px;
 
-}
 .navbar ul.nav > li > a:hover{
-	background:#e7e7e7;
+	background:blue;
 }
 
-.btn-primary{
-	color:rgb(255,255,255);
-	background-color: rgb(79,191,168);
-	border-color: rgb(65,179,156);
+.change-align{
+	float: right;
+	margin-left: 100px;
 }
 
-#search .navbar-form{
-	float:right;
+
+.navbar-form{
+	
+
+	width:70%;
 
 }
-#search{
-	clear:both;
-	border-top: solid 1px #9adacd;
-	text-align:right;
-}
+
 
 #search .navbar-form .input-group{
 	display: table;
 
 }
 #search .navbar-form .input-group .form-control{
-	width:100%;
+	width:1%;
 }
 #slider{
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
 .box{
 
@@ -119,9 +95,13 @@ body{
 	box-shadow: 0 1px 5px rgba(0,0,0,.1);
 
 }
+
+
 #advantage{
 	text-align:center;
+
 }
+
 
 #advantage .box .icon{
 position: absolute;
@@ -163,10 +143,7 @@ text-align: center;
 
 }
 
-#content{
-	padding-left: 25px;
 
-}
 
 .single{
 	width: 290px;

@@ -26,160 +26,16 @@
 
 	<body>
 		
-		<!--header1-->
-		
-				<div id="top">
-				<div class="container-fluid">
-				<!--top left-->
-				<div class="offer">
-					<a href="#" class="btn btn-primary btn-md"><?php 
-					if(!isset($_SESSION['customer_email']))
-					{
-						echo "welcome guest";
-					}
-					else
-					{
-						echo "welcome:".$_SESSION['customer_email']."";
-					}
-					?></a>
-					<a href="#" >Total Items In Cart :<?php item(); ?> & Total Amount :
-						<?php totalprice(); ?> </a>
-				
-				</div>
-				
-				<!--top right-->
-				<div>
-					<ul class="menu" >
-						<li>
-						<a href="cust-reg.php" "> Register</a>
-						</li>
+		<?php
+		include("includes/header.php");
+		?>
 
-						<li>
-						<?php 
-						if(!isset($_SESSION['customer_email']))
-						{
-							echo "<a href='checkout.php'>My Account</a>";
-						}
-						else
-						{
-							echo "<a href='customer/myaccount.php?myorder'>My Account</a>";
-						}
-						?>
-						</li>
-
-
-						<li>
-						<a href="cart.php"> go to cart</a>
-						</li>
-
-
-						<li>
-						
-						<?php
-						if(!isset($_SESSION['customer_email']))
-						{
-							echo "<a href='checkout.php'>Login</a>";
-						}
-						else
-						{
-							echo "<a href='logout.php'>logout</a>";
-						}
-						?>
-
-						</li>
-					</ul>
-				</div>
-			</div>
-
-	<!--header2--->
-			<div class="navbar navbar-default" id="navbar">
-				<div class="container">
-					<div class="navbar-header">
-						<a class="navbar-brand home" href="index.php">
-							<img src="images/hcl.jpg" alt="myLlogo" class="hidden-xs">
-							<img src="images/lg.jpg" alt="mySlogo" class="visible-xs">
-						</a>	
-						
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation">
-							<span class="sr-only">toggle navigation</span>
-							<i class="fa fa-align-justify"></i>
-						</button>
-						
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#search">
-							<span class="sr-only"></span>
-							<i class="fa fa-search"></i>
-						</button>
-					</div>
-
-					<div class="navbar-collapse"  id="navigation">
-						<div class="padding-nav">
-							<ul class="nav navbar-nav flex-row navbar-left">
-								<li class="active">
-									<a href="index.php">Home</a>
-								</li>
-								<li >
-									<a href="shop.php">Shop</a>
-								</li>
-								<li >
-									
-						<?php 
-						if(!isset($_SESSION['customer_email']))
-						{
-							echo "<a href='checkout.php'>My Account</a>";
-						}
-						else
-						{
-							echo "<a href='customer/myaccount.php?myorder'>My Account</a>";
-						}
-						?>
-								</li>
-								<li >
-									<a href="cart.php">Shopping Cart</a>
-								</li>
-								
-								<li >
-									<a href="contactus.php">Contact Us</a>
-								</li>
-							</ul>
-						</div>
-						<a href="cart.php" class="btn btn-primary navbar-btn right">
-							<i class="fa fa-shoppin-cart"></i>
-							<span><?php item(); ?>items in cart</span>
-						</a>
-						
-						<div class="navbar-collapse collapse right">
-							<button class="btn navbar-btn btn-primary" type="button" data-toggle="collapse" data-target="#search">
-								<span class="sr-only">Toggle Search</span>
-								<i class="fa fa-search"></i>
-							</button>
-						</div>
-						
-
-						<div class="collapse clearfix" id="search">
-							<form class="navbar-form" method="get" action="result.php">
-								<div class="input-group">
-									<input type="text" name="user_query" placeholder="search" class="form-control" required="">
-								
-								<span class="input-group-btn">
-									<button type="button" value="search" name="search" class="btn btn-primary">
-										<i class="fa fa-search"></i>
-									</button>
-								</span>
-								</div>
-							</form>
-						</div>
-					</div>
-					
-				</div>	
-
-			</div>
-		</div>
 
 <h1 class="box text-primary"><center>Trending Today</center></h1>
 
 	<!--slider1-->
 
-	<div class="container justify-content-center d-flex flex-row" style="margin: 30px;">
+	<div class="container-fluid d-flex">
 		<div class="col-md-4" id="slider">
 			<div class="">
 		    	<div id="carousel1" class="carousel slide" data-ride="carousel">

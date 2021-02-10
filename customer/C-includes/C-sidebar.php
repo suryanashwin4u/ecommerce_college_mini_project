@@ -1,11 +1,11 @@
 
-<div class="panel panel-default sidebar-menu box">
+<div class="box">
 	<div class="panel-heading ">
 		<center>
 			<img src="C-images/1.jpg" class="img-fluid">
 		</center>
 		<br>
-		<h4 align="center" class="panel-title">Name:Ashwani</h4>
+		<h4 align="center" class="panel-title">Name:ashwin </h4>
 	</div>
 	<div class="  ">
 		<ul class="d-flex flex-column">
